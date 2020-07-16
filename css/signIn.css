@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(233, 233, 233);
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.form {
+  z-index: 15;
+  position: relative;
+  background: #FFFFFF;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 100px auto 10px;
+  overflow: hidden;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 20px;
+}
+
+.form-group label {
+  display: block;
+  margin: 0 0 3px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.form-group input {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 9px 15px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.form-group button {
+  outline: none;
+  background: #fd9000;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 20px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form-group .form-remember {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.form-group .form-remember input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+  margin: 0 10px 0 0;
+}
+.form-group .form-recovery {
+  color:#fd9000;
+  font-size: 12px;
+  text-decoration: none;
+}
+.form-panel {
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.form-header h1 {
+  margin: 0 0 10px 0;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header {
+  padding: 10px; 
+  background: #2f323a; 
+  color: #fff; 
+  font-size: 12px;
+}
+
+.header h3{
+  margin: 0 0 0 0;
+}
+
+.reserved {
+  position: fixed; 
+  left: 0; bottom: 0; 
+  padding: 10px; 
+  background: #2f323a; 
+  color: #fff; 
+  width: 100%; 
+  font-size: 12px;
+  text-align: center; 
+}

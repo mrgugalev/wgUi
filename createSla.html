@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Internal Billing System</div>
+      <div class="bg-dark list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Services details</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Products details</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">SLA screens</a>
+        <a href="#" class="list-group-item list-group-item-action bg-dark">Access management</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+          <button id="menu-toggle">
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <nav class="navbar navbar-dark bg-dark">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </nav>
+
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span></a>
+              </li> -->
+              
+              <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie</span>
+                  <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/25x25">
+                </a>
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400">Profile</i>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400">Settings</i>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400">Activity log</i>
+                  </a>
+                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400">Logout</i>
+                  </a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        </div>
+
+        <section class="main-section">
+          <div class="main-section-header">
+            <h3>Users</h3>
+            <button type="button" class="btn btn-primary">Add new SLA</button>
+            <button type="button" class="btn btn-success">Report actual workload</button>
+          </div>
+          <div class="sub-menu">
+            <h6> All | Administrator | Editor | Contributor | Pending </h6>
+            <div class="main">
+              
+            </div>
+          </div>
+        
+          <div class="container">
+            <form>
+              <div class="form-group row">
+                <label for="text" class="col-4 col-form-label"></label> 
+                <div class="col-8">
+                  <input id="text" name="text" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="select" class="col-4 col-form-label">Select day</label> 
+                <div class="col-8">
+                  <select id="select" name="select" class="custom-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text1" class="col-4 col-form-label">Article Name</label> 
+                <div class="col-8">
+                  <input id="text1" name="text1" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text2" class="col-4 col-form-label">Role</label> 
+                <div class="col-8">
+                  <input id="text2" name="text2" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text3" class="col-4 col-form-label">Manager</label> 
+                <div class="col-8">
+                  <input id="text3" name="text3" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text4" class="col-4 col-form-label">Team</label> 
+                <div class="col-8">
+                  <input id="text4" name="text4" type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text5" class="col-4 col-form-label">Total value</label> 
+                <div class="col-8">
+                  <input id="text5" name="text5" type="text" class="form-control">
+                </div>
+              </div> 
+              <div class="form-group row">
+                <div class="offset-4 col-8">
+                  <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Select Day</th>
+                      <th scope="col">Article Name</th>
+                      <th scope="col">Role</th>
+                      <th scope="col">Manager</th>
+                      <th scope="col">Team</th>
+                      <th scope="col">Total value</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                            <label class="custom-control-label" for="customCheck1">1</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap 4 CDN and Starter Template</td>
+                      <td>Cristina</td>
+                      <td>913</td>
+                      <td>2.846</td>
+                      <td>1.434</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                            <label class="custom-control-label" for="customCheck2">2</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap Grid 4 Tutorial and Examples</td>
+                      <td>Cristina</td>
+                      <td>1.434</td>
+                      <td>3.417</td>
+                      <td>1.434</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">3</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap Flexbox Tutorial and Examples</td>
+                      <td>Cristina</td>
+                      <td>1.877</td>
+                      <td>1.234</td>
+                      <td>1.434</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">3</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap Flexbox Tutorial and Examples</td>
+                      <td>Cristina</td>
+                      <td>1.877</td>
+                      <td>1.234</td>
+                      <td>1.434</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">3</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap Flexbox Tutorial and Examples</td>
+                      <td>Cristina</td>
+                      <td>1.877</td>
+                      <td>1.234</td>
+                      <td>1.434</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">3</label>
+                        </div>
+                      </td>
+                      <td>Bootstrap Flexbox Tutorial and Examples</td>
+                      <td>Cristina</td>
+                      <td>1.877</td>
+                      <td>1.234</td>
+                      <td>1.434</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        
+        
+        </section>
+        
+
+      </main>
+
+      <footer>
+        <div class="reserved">
+          © 2012–2020 Wargaming.net. All rights reserved.
+        </div>
+      </footer>
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+
+</body>
+
+</html>

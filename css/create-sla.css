@@ -1,0 +1,311 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  position: fixed;
+  background: #2f323a;
+  width: 100%;
+  height: 70px;
+  z-index: 10;
+}
+
+
+.left_area h3{
+  color: #fff;
+  margin: 0 0 0 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #19B3D3;
+}
+
+.logout_btn{
+  padding: 5px;
+  background: #19B3D3;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btn:hover{
+  background: #0B87A6;
+}
+
+.sidebar {
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar a:hover{
+  background: #19B3D3;
+  text-decoration: none;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 260px;
+  font-size: 20px;
+  margin: 18px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #sidebar_btn:hover{
+  color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+  left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~ .sidebar a{
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+.content{
+  margin-left: 250px;
+  background: url(background.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check{
+  display: none;
+}
+.right_area{
+  padding: 5px;
+}
+
+.header_content_inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserved {
+  position: fixed; 
+  left: 0; bottom: 0; 
+  padding: 20px; 
+  background:#2f323a; 
+  color: #fff; 
+  width: 100%; 
+  font-size: 12px;
+  text-align: center; 
+}
+
+.main-section {
+  padding-top: 100px;
+  padding-left: 300px;
+}
+
+.double{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.main-section-header {
+  display: flex;
+}
+
+.main-section-header h3{
+  margin-right: 40px;
+
+}
+
+.sub-menu{
+  display: flex;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+
+.main{
+  width: 50%;
+  margin-left: 230px;
+  margin-bottom: 5px;
+}
+
+
+.container {
+  padding: 2rem 0rem;
+  width: 100%;
+}
+
+h4 {
+  margin: 2rem 0rem 1rem;
+}
+
+.table-image {
+  td, th {
+    vertical-align: middle;
+  }
+}
+
+.main-section:hover{
+  text-decoration: none;
+}
+
+.btn btn-primary{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+min-height: 100vh;
+margin-left: -15rem;
+-webkit-transition: margin .25s ease-out;
+-moz-transition: margin .25s ease-out;
+-o-transition: margin .25s ease-out;
+transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+padding: 0.875rem 1.25rem;
+font-size: 1.2rem;
+color: aqua;
+}
+
+
+
+#sidebar-wrapper .list-group {
+width: 15rem;
+}
+
+#page-content-wrapper {
+min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+margin-left: 0;
+}
+
+@media (min-width: 768px) {
+#sidebar-wrapper {
+  margin-left: 0;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -15rem;
+}
+}
+
+.header{
+  position: relative;
+}
+
+.pieAndBar{
+  display:flex;
+}
+
+.revenueSources{
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.5);
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+  margin-right: 2%;
+}
+
+.revenueSources h3{
+  padding-left: 10px;
+}
+
+.projects{
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.5);
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+}
+.projects h3{
+  padding-left: 10px;
+}
+
+.reserved {
+  position: relative; 
+  left: 0; bottom: 0; 
+  padding: 10px; 
+  background: #2f323a; 
+  color: #fff; 
+  width: 100%; 
+  font-size: 12px;
+  text-align: center; 
+}

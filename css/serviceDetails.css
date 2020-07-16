@@ -1,0 +1,137 @@
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -13rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  color: #fd9000;
+  font-size: 17px;
+  height: 57px;
+  padding: 15px 10px 20px 20px;
+}
+
+
+
+#sidebar-wrapper .list-group {
+width: 13rem;
+}
+
+#sidebar-wrapper .list-group-item{
+  color: white;
+}
+
+#page-content-wrapper {
+min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+margin-left: 0;
+}
+
+@media (min-width: 768px) {
+#sidebar-wrapper {
+  margin-left: 0;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -13rem;
+}
+}
+
+.header{
+  position: relative;
+}
+
+.pieAndBar{
+  display:flex;
+}
+
+.revenueSources{
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.5);
+  border-radius: 10px;
+  height: 420px;
+  width: 600px;
+  margin-right: 2%;
+}
+
+.projects{
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.5);
+  border-radius: 10px;
+  height: 420px;
+  width: 600px;
+  margin-right: 2%;
+}
+
+.revenueSources h3{
+  padding-left: 10px;
+}
+
+.projects{
+  box-shadow: 0 0 10px rgba(151, 151, 151, 0.5);
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+}
+.projects h3{
+  padding-left: 10px;
+}
+
+.reserved {
+  position: relative; 
+  left: 0; bottom: 0; 
+  padding: 15px; 
+  background: white; 
+  color: #2f323a; 
+  width: 100%; 
+  font-size: 12px;
+  text-align: center; 
+  margin: 120px 0 0 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+body{
+  font-size: 13px;
+}
+
+.container{
+  padding: 10px;
+}
+
+.fa{
+  border: 0;
+  margin: 0;
+  background-color: white;
+}
+.fa::after{
+  border: 0;
+  margin: 0;
+  background-color: white;
+  padding: 0;
+}
+
+.row {
+  padding: 60px 10px 0 10px;
+}
